@@ -18,7 +18,8 @@ class BoomViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        boomView.layer.cornerRadius = boomView.bounds.width/2
+        boomView.layer.cornerRadius = 50
+        boomView.clipsToBounds = true
         
         let panges:UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panEventHandler(_:)))
         boomView.addGestureRecognizer(panges)

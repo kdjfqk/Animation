@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ht-g2-6FV">
-                                <color key="backgroundColor" red="0.44315662090000002" green="0.9996993542" blue="0.93484132190000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.9593562981" green="0.88596845729999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="OBw-hr-VFP"/>
                                     <constraint firstAttribute="height" constant="49" id="uU4-AP-NQI"/>
@@ -48,18 +48,35 @@
                                     <action selector="addBtnClicked:" destination="9Vu-L9-sGn" eventType="touchUpInside" id="jbj-Ti-V3k"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNz-xm-BRk">
+                                <color key="backgroundColor" red="0.9593562981" green="0.88596845729999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="mls-3J-lRn"/>
+                                    <constraint firstAttribute="width" constant="46" id="uum-mU-VAg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addBtnClicked:" destination="9Vu-L9-sGn" eventType="touchUpInside" id="YUj-fL-QYz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96610112309999996" green="1" blue="0.71031612509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ISV-6W-7Lm" firstAttribute="leading" secondItem="M5g-Ym-Chy" secondAttribute="leading" constant="9" id="CV2-Zx-ewq"/>
                             <constraint firstItem="ISV-6W-7Lm" firstAttribute="top" secondItem="fQo-nG-VDY" secondAttribute="bottom" constant="1" id="Tvv-g3-owl"/>
+                            <constraint firstItem="jNz-xm-BRk" firstAttribute="leading" secondItem="M5g-Ym-Chy" secondAttribute="leading" constant="19" id="WK9-z1-AQ8"/>
                             <constraint firstItem="1ht-g2-6FV" firstAttribute="top" secondItem="fQo-nG-VDY" secondAttribute="bottom" constant="8" id="dVq-oY-hzs"/>
                             <constraint firstAttribute="trailing" secondItem="1ht-g2-6FV" secondAttribute="trailing" constant="16" id="ocn-GP-E06"/>
+                            <constraint firstItem="TsP-qj-AhW" firstAttribute="top" secondItem="jNz-xm-BRk" secondAttribute="bottom" constant="20" id="vAK-Hi-36u"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="arE-Ai-xfs"/>
                     <connections>
                         <outlet property="addBtn" destination="1ht-g2-6FV" id="dA3-MY-aai"/>
+                        <outlet property="bottomAddBtn" destination="jNz-xm-BRk" id="QcD-Hv-d4h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFh-pm-vWS" sceneMemberID="firstResponder"/>
@@ -79,7 +96,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbK-i8-5vw">
-                                <color key="backgroundColor" red="0.44315662090000002" green="0.9996993542" blue="0.93484132190000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.9593562981" green="0.88596845729999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="ZOO-2F-Bkk"/>
                                     <constraint firstAttribute="height" constant="48" id="vw3-im-KYp"/>

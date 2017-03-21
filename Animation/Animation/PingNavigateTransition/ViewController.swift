@@ -11,11 +11,15 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate {
 
     @IBOutlet var addBtn: UIButton!
+    @IBOutlet var bottomAddBtn: UIButton!
+    
+    var selectedBtn:UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        addBtn.layer.cornerRadius = addBtn.bounds.maxX/2
+        addBtn.layer.cornerRadius = 25
+        bottomAddBtn.layer.cornerRadius = 25
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -28,6 +32,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     }
 
     @IBAction func addBtnClicked(_ sender: AnyObject) {
+        self.selectedBtn = sender as! UIButton
         let toVC:SecondViewController = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewControllerID") as! SecondViewController
         self.navigationController?.pushViewController(toVC, animated: true)
     }

@@ -16,7 +16,7 @@ class PresentedViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        closeBtn.layer.cornerRadius = closeBtn.bounds.width/2
+        closeBtn.layer.cornerRadius = 25
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +26,5 @@ class PresentedViewController: UIViewController {
     
     @IBAction func closeBtnClicked(_ sender: AnyObject) {
         self.presentingViewController!.dismiss(animated: true, completion: nil)
-        self.presentingViewController
     }
 }

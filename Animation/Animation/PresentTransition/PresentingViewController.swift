@@ -19,7 +19,7 @@ class PresentingViewController: UIViewController,UIViewControllerTransitioningDe
 
         // Do any additional setup after loading the view.
         
-        addBtn.layer.cornerRadius = addBtn.bounds.width/2
+        addBtn.layer.cornerRadius = 25
     }
 
     override func didReceiveMemoryWarning() {

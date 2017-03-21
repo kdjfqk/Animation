@@ -28,9 +28,9 @@ class PingTransition: NSObject, UIViewControllerAnimatedTransitioning,CAAnimatio
         containerView.addSubview(toVC.view)
         
         //create start path
-        let startPath:UIBezierPath = UIBezierPath(ovalIn: fromVC.addBtn.frame)
+        let startPath:UIBezierPath = UIBezierPath(ovalIn: fromVC.selectedBtn!.frame)
         //create finish path
-        let btn:UIButton = fromVC.addBtn
+        let btn:UIButton = fromVC.selectedBtn!
         var x:CGFloat = 0
         var y:CGFloat = 0
         if btn.frame.minX>toVC.view.bounds.width/2 {
@@ -55,7 +55,7 @@ class PingTransition: NSObject, UIViewControllerAnimatedTransitioning,CAAnimatio
             }
         }
         let radius:CGFloat = sqrt(x*x + y*y)
-        let finishRect:CGRect = fromVC.addBtn.frame.insetBy(dx: -radius, dy: -radius)
+        let finishRect:CGRect = fromVC.selectedBtn!.frame.insetBy(dx: -radius, dy: -radius)
         let finishPaht:UIBezierPath = UIBezierPath(ovalIn: finishRect)
         
         //create mask layer

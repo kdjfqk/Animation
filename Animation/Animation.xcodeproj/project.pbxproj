@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390F7E661E80CA0400CCB5A1 /* BubbleShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7E651E80CA0400CCB5A1 /* BubbleShakeAnimation.swift */; };
 		396554BE1E7FD5C900F7AB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396554BD1E7FD5C900F7AB26 /* AppDelegate.swift */; };
 		396554C31E7FD5C900F7AB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396554C11E7FD5C900F7AB26 /* Main.storyboard */; };
 		396554C51E7FD5C900F7AB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396554C41E7FD5C900F7AB26 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		390F7E651E80CA0400CCB5A1 /* BubbleShakeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleShakeAnimation.swift; sourceTree = "<group>"; };
 		396554BA1E7FD5C900F7AB26 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396554BD1E7FD5C900F7AB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		396554C21E7FD5C900F7AB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				396554EF1E7FD69300F7AB26 /* BubbleShakeViewController.swift */,
+				390F7E651E80CA0400CCB5A1 /* BubbleShakeAnimation.swift */,
 			);
 			path = "BubbleShakeAnimation ";
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				396555031E7FD69300F7AB26 /* PresentingViewController.swift in Sources */,
 				396555041E7FD69300F7AB26 /* PresentTransition.swift in Sources */,
 				396554BE1E7FD5C900F7AB26 /* AppDelegate.swift in Sources */,
+				390F7E661E80CA0400CCB5A1 /* BubbleShakeAnimation.swift in Sources */,
 				396554FC1E7FD69300F7AB26 /* BubbleShakeViewController.swift in Sources */,
 				396554FD1E7FD69300F7AB26 /* PingInverseTransition.swift in Sources */,
 				396555011E7FD69300F7AB26 /* PresentDismissTransition.swift in Sources */,
@@ -586,6 +590,7 @@
 				396554E41E7FD5C900F7AB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396554E51E7FD5C900F7AB26 /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +599,7 @@
 				396554E71E7FD5C900F7AB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		396554E81E7FD5C900F7AB26 /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +608,7 @@
 				396554EA1E7FD5C900F7AB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
